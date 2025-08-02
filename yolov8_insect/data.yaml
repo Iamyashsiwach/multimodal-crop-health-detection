@@ -1,0 +1,18 @@
+# YOLOv8 Insect Detection Model Configuration
+# Dataset configuration for crop insect detection
+
+# Dataset paths (adjust as needed for training)
+path: ../datasets/insect_dataset
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 4
+
+# Class names (common crop insects)
+names:
+  0: armyworm
+  1: aphid
+  2: cutworm
+  3: leafhopper

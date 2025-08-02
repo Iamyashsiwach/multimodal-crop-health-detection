@@ -1,0 +1,19 @@
+# YOLOv8 Disease Segmentation Model Configuration  
+# Dataset configuration for crop disease segmentation
+
+# Dataset paths (adjust as needed for training)
+path: ../datasets/disease_dataset
+train: images/train
+val: images/val
+test: images/test
+
+# Number of classes
+nc: 5
+
+# Class names (common crop diseases)
+names:
+  0: blight
+  1: rust
+  2: spot
+  3: wilt
+  4: mosaic
