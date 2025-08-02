@@ -67,7 +67,6 @@ if __name__ == "__main__":
     exit_code = main()
     if exit_code == 0:
         print("\n🎉 Demo completed successfully!")
-        print("📸 Take screenshots of the output for Round-1 submission!")
     else:
         print(f"\n❌ Demo failed with exit code {exit_code}")
     
